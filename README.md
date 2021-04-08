@@ -1,4 +1,4 @@
-![PostgreSQL](https://wiki.postgresql.org/images/9/9a/PostgreSQL_logo.3colors.540x557.png)
+<img src="https://wiki.postgresql.org/images/9/9a/PostgreSQL_logo.3colors.540x557.png" data-canonical-src="https://wiki.postgresql.org/images/9/9a/PostgreSQL_logo.3colors.540x557.png" width="250" height="250" />
 
 # Docker - PostgreSQL
 
