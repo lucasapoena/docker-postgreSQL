@@ -6,15 +6,15 @@
 
 ### Requirements
 
-**MacOS:**
+:apple: **MacOS:**
 
 Install [Docker](https://docs.docker.com/docker-for-mac/install/) and [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
 
-**Windows:**
+:koko: **Windows:**
 
 Install [Docker](https://docs.docker.com/docker-for-windows/install/) and [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
 
-**Linux:**
+:penguin: **Linux:**
 
 Install [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) and [Docker-compose](https://docs.docker.com/compose/install/#install-compose).
 
