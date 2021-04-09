@@ -1,0 +1,39 @@
+version: "3.1"
+services:
+    # Database
+    postgres-db:
+      image: postgres:latest
+      container_name: postgres_docker
+      ports:
+        - "15432:5432"
+      volumes:
+        - dbdata:/var/lib/postgresql/data 
+      environment:
+        - POSTGRES_PASSWORD=postgres
+      networks:
+        - postgres-network
+      # restart: always
+
+    pgadmin:
+      image: dpage/pgadmin4:latest
+      container_name: pgadmin_docker
+      environment:
+        PGADMIN_DEFAULT_EMAIL: "admin@lucasapoena.eti.br"
+        PGADMIN_DEFAULT_PASSWORD: "admin"
+      ports:
+        - "8080:80"
+      volumes:
+        - pgadmin:/root/.pgadmin  
+      depends_on:
+        - postgres-db
+      networks:
+        - postgres-network  
+
+networks:
+  postgres-network:
+    driver: bridge
+
+volumes:
+  dbdata:
+    driver: local
+  pgadmin:
