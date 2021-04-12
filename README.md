@@ -57,4 +57,4 @@ Enjoy your new panels!
 
 ### License
 
-MIT © 2019 [Lucas Apoena](https://github.com/lucasapoena/) and [contributors](https://github.com/lucasapoena/zabbix-server-docker/graphs/contributors).
+MIT © 2019 [Lucas Apoena](https://github.com/lucasapoena/) and [contributors](https://github.com/lucasapoena/docker-postgreSQL/graphs/contributors).
